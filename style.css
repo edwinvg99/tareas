@@ -1,0 +1,54 @@
+.testimonios-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .testimonios-track {
+    display: flex;
+    width: fit-content;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+  
+  /* Efecto hover para pausar el slider */
+  .testimonios-slider:hover .animate-scroll {
+    animation-play-state: paused;
+  }
+  
+  /* Estilos para las cards de tecnologías */
+  .tecnologia-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .tecnologia-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .colored-cop::first-letter {
+    color: #FFD700; /* Amarillo para C */
+  }
+  .colored-cop::after {
+    content: "P";
+    color: transparent;
+  }
+  .colored-cop {
+    display: inline-block;
+    color: #FF0000; /* Rojo para P por defecto */
+    position: relative;
+  }
+  .colored-cop::before {
+    content: "P";
+    position: absolute;
+    left: 0.4ch;
+    color: #0057B8; /* Azul para O */
