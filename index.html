@@ -99,10 +99,9 @@
   
   
 <!-- Modificación para la sección de Testimonios - Reemplaza la sección actual -->
-<section class="py-16 px-6 max-w-10xl mx-auto overflow-hidden  bg-zinc-900 ">
 
 <section class="py-16 px-6  mx-auto overflow-hidden  bg-zinc-900 ">
-    <h2 class="text-3xl font-bold mb-8 text-center ">Testimonios</h2>
+    <h2 class="text-3xl font-bold  text-center  mb-[45px]">Testimonios</h2>
     
     <!-- Slider infinito de testimonios -->
     <div class="testimonios-slider relative">
@@ -196,7 +195,7 @@
   </section>
   
 <!-- Precios -->
-<section class="py-16 px-6 bg-zinc-800 hover:shadow-cyan-500/50 hover:scale-105 transition duration-300 ease-in-out">
+<section class="py-16 px-6 bg-zinc-900 hover:shadow-cyan-500/50 hover:scale-105 transition duration-300 ease-in-out">
         <h2 class="text-3xl font-bold mb-1 text-center">Precios Base</h2>
         <h2 class="text-1xl font-bold mb-8 text-center text-cyan-500">(No fijos)</h2>
     
@@ -278,35 +277,28 @@
       <div id="slider" class="flex space-x-12 animate-slide">
         <!-- Logos duplicados para bucle infinito -->
         <template id="logos-template">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-20 h-20 object-contain" alt="HTML5"/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-20 h-20 object-contain" alt="CSS3"/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-20 h-20 object-contain" alt="JavaScript"/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-20 h-20 object-contain" alt="Python"/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" class="w-20 h-20 object-contain bg-white rounded" alt="Django"/>
-          <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" class="w-20 h-20 object-contain" alt="Tailwind CSS"/>
-          <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" class="w-20 h-20 object-contain" alt="SQLite"/>
-          <img src="https://www.vectorlogo.zone/logos/java/java-vertical.svg" class="w-20 h-20 object-contain" alt="Java"/>
-          <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" class="w-20 h-20 object-contain" alt="React"/>
-          <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" class="w-20 h-20 object-contain" alt="Git"/>
-          <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" class="w-20 h-20 object-contain" alt="GitHub"/>
-          <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" class="w-20 h-20 object-contain" alt="MySQL"/>
-          <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" class="w-20 h-20 object-contain" alt="MongoDB"/>
-          <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" class="w-20 h-20 object-contain" alt="Node.js"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-20 h-20 object-contain drop-shadow-html" alt="HTML5"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-20 h-20 object-contain drop-shadow-css" alt="CSS"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-20 h-20 object-contain drop-shadow-js" alt="JavaScript"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-20 h-20 object-contain drop-shadow-python" alt="Python"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" class="w-20 h-20 object-contain bg-white rounded drop-shadow-django" alt="Django"/>
+          <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" class="w-20 h-20 object-contain drop-shadow-tailwind" alt="Tailwind CSS"/>
+          <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" class="w-20 h-20 object-contain drop-shadow-sqlite" alt="SQLite"/>
+          <img src="https://www.vectorlogo.zone/logos/java/java-vertical.svg" class="w-20 h-20 object-contain drop-shadow-java" alt="Java"/>
+          <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" class="w-20 h-20 object-contain drop-shadow-react" alt="React"/>
+          <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" class="w-20 h-20 object-contain drop-shadow-git" alt="Git"/>
+          <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" class="w-20 h-20 object-contain drop-shadow-github" alt="GitHub"/>
+          <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" class="w-20 h-20 object-contain drop-shadow-mysql" alt="MySQL"/>
+          <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" class="w-20 h-20 object-contain drop-shadow-mongodb" alt="MongoDB"/>
+          <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" class="w-20 h-20 object-contain drop-shadow-node" alt="Node.js"/>
         </template>
+        
       </div>
     </div>
   </section>
   
   <style>
-    @keyframes slide {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-  
-    .animate-slide {
-      animation: slide 40s linear infinite;
-      width: max-content;
-    }
+ 
   </style>
   
   <script>

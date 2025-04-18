@@ -51,4 +51,71 @@
     content: "P";
     position: absolute;
     left: 0.4ch;
-    color: #0057B8; /* Azul para O */
+    color: #0057B8;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-slide {
+    animation: slide 40s linear infinite;
+    width: max-content;
+  }
+  .drop-shadow-html {
+    filter: drop-shadow(0 0 3px #e34c26);
+  }
+
+  .drop-shadow-css {
+    filter: drop-shadow(0 0 3px #264de4);
+  }
+
+  .drop-shadow-js {
+    filter: drop-shadow(0 0 3px #f7df1e);
+  }
+
+  .drop-shadow-python {
+    filter: drop-shadow(0 0 3px #306998);
+  }
+
+  .drop-shadow-django {
+    filter: drop-shadow(0 0 3px #092e20);
+  }
+
+  .drop-shadow-tailwind {
+    filter: drop-shadow(0 0 3px #38bdf8);
+  }
+
+  .drop-shadow-sqlite {
+    filter: drop-shadow(0 0 3px #003b57);
+  }
+
+  .drop-shadow-java {
+    filter: drop-shadow(0 0 3px #046db3);
+  }
+ 
+  
+  .drop-shadow-react {
+    filter: drop-shadow(0 0 3px #61dafb);
+  }
+
+  .drop-shadow-git {
+    filter: drop-shadow(0 0 3px #f04e3279);
+  }
+
+  .drop-shadow-github {
+    filter: drop-shadow(0 0 3px #333);
+  }
+
+  .drop-shadow-mysql {
+    filter: drop-shadow(0 0 3px #00758f);
+  }
+
+  .drop-shadow-mongodb {
+    filter: drop-shadow(0 0 3px #47a248);
+  }
+
+  .drop-shadow-node {
+    filter: drop-shadow(0 0 3px #68a063);
+  }
