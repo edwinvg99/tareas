@@ -30,5 +30,5 @@ Página web donde ofrezco asesorías en programación y servicios técnicos para
 
 ## 🌐 Publicado en GitHub Pages
 
-Puedes ver la web en línea aquí: **[LINK_AQUÍ]([(https://edwinvg99.github.io/)])**
+Puedes ver la web en línea aquí: **[LINK_AQUÍ](https://edwinvg99.github.io/)**
 
